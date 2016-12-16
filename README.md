@@ -29,7 +29,7 @@ Use Firebase console to send FCM messages to device or emulator.
 - Set the target to **Single Device**.
 - Check the logs for the **InstanceID** token, copy and paste it into the Firebase console Token field.
   - If you cannot find the token in your logs, click on the **LOG TOKEN** button in the application and the token will
-  be logged in **logcat**.
+  be logged in **logcat. (이 소스는 받은 FMC 메세지를 토스트 메세지로 표시하도록 되어있습니다)**
 - Click on the **Send Message** button.
 - If your application is in the foreground you should see the incoming
   message printed in the logs. If it is in the background, a system notification should be
